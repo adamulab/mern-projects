@@ -1,4 +1,34 @@
-.slide {
-  .container {
+.card {
+  width: 252px;
+  height: 344px;
+  color: #013914;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .description {
+    background-color: #013914;
+    color: white;
+    font-weight: 300;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 5px;
+  }
+
+  .title {
+    background-color: white;
+    font-weight: 300;
+    font-size: 24px;
+    position: absolute;
+    left: 15px;
+    top: 40px;
+    padding: 5px 10px;
   }
 }

@@ -1,5 +1,6 @@
 import React from "react";
-import FeaturedImg from "../../images/AdamuAbu3.jpg";
+import FeaturedImg from "../../images/adamu.png";
+import { FaSearch } from "react-icons/fa";
 import "./Featured.scss";
 
 function Featured() {
@@ -7,12 +8,15 @@ function Featured() {
     <div className="featured">
       <div className="container">
         <div className="left">
+          <img src={FeaturedImg} alt="" />
+        </div>
+        <div className="right">
           <h1>
             Find the perfect <i>freelance services</i> for your business
           </h1>
           <div className="search">
             <div className="searchInput">
-              <img src="" alt="" />
+              <FaSearch className="searchIcon" />
               <input type="text" placeholder="I am looking a writer" />
             </div>
             <button>Search</button>
@@ -24,9 +28,6 @@ function Featured() {
             <button>Ai Services</button>
             <button>Writing</button>
           </div>
-        </div>
-        <div className="right">
-          <img src={FeaturedImg} alt="" />
         </div>
       </div>
     </div>

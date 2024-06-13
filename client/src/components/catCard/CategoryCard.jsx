@@ -1,12 +1,17 @@
 import React from "react";
-import "./Slide.scss";
+import "./CategoryCard.scss";
+import { Link } from "react-router-dom";
 
-function Slide() {
+function CategoryCard({ item }) {
   return (
-    <div className="slide">
-      <div className="container"></div>
-    </div>
+    <Link to={"/gigs?cat=design"}>
+      <div className="card">
+        <img src={item.img} alt="picture" />
+        <span className="description">{item.description}</span>
+        <span className="title">{item.title}</span>
+      </div>
+    </Link>
   );
 }
 
-export default Slide;
+export default CategoryCard;

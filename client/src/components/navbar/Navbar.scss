@@ -59,7 +59,7 @@
           right: 0;
           padding: 20px;
           background-color: white;
-          color: gray;
+          color: #013914;
           border: 1px solid lightgray;
           display: flex;
           flex-direction: column;
@@ -67,6 +67,10 @@
           border-radius: 10px;
           width: 200px;
           font-weight: 300;
+
+          .link:hover {
+            color: gray;
+          }
         }
       }
 
