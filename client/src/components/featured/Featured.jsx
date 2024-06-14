@@ -12,12 +12,12 @@ function Featured() {
         </div>
         <div className="right">
           <h1>
-            Find the perfect <i>freelance services</i> for your business
+            Discover the ideal <i>freelance services</i> for your business
           </h1>
           <div className="search">
             <div className="searchInput">
               <FaSearch className="searchIcon" />
-              <input type="text" placeholder="I am looking a writer" />
+              <input type="text" placeholder="I am looking for a writer" />
             </div>
             <button>Search</button>
           </div>
