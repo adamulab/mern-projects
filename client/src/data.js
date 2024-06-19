@@ -1,3 +1,6 @@
+import ImageLarge from "./images/office.jpg";
+import ProfilePicture from "./images/user.png";
+
 export const cards = [
   {
     id: 1,
@@ -58,5 +61,57 @@ export const cards = [
     title: "Video Editing",
     description: "High-quality video editing.",
     img: "https://i.ibb.co/FgyrwNL/f-video-editing.jpg",
+  },
+];
+
+export const projects = [
+  {
+    id: 1,
+    img: ImageLarge,
+    profilePicture: ProfilePicture,
+    category: "Gig1",
+    username: "John Smallings",
+  },
+  {
+    id: 2,
+    img: ImageLarge,
+    profilePicture: ProfilePicture,
+    category: "Gig2",
+    username: "Habeeb Bai",
+  },
+  {
+    id: 3,
+    img: ImageLarge,
+    profilePicture: ProfilePicture,
+    category: "Gig3",
+    username: "Musa Suleiman",
+  },
+  {
+    id: 4,
+    img: ImageLarge,
+    profilePicture: ProfilePicture,
+    category: "Gig4",
+    username: "Kachikwu Abel",
+  },
+  {
+    id: 5,
+    img: ImageLarge,
+    profilePicture: ProfilePicture,
+    category: "Gig5",
+    username: "Ayodele Moreneke",
+  },
+  {
+    id: 6,
+    img: ImageLarge,
+    profilePicture: ProfilePicture,
+    category: "Gig6",
+    username: "Sylvester Anobi",
+  },
+  {
+    id: 7,
+    img: ImageLarge,
+    profilePicture: ProfilePicture,
+    category: "Gig7",
+    username: "Musa Suleiman",
   },
 ];
