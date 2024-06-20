@@ -1,5 +1,6 @@
 import ImageLarge from "./images/office.jpg";
 import ProfilePicture from "./images/user.png";
+import GigImage from "./images/f-ai.avif";
 
 export const cards = [
   {
@@ -113,5 +114,88 @@ export const projects = [
     profilePicture: ProfilePicture,
     category: "Gig7",
     username: "Musa Suleiman",
+  },
+];
+
+export const gigs = [
+  {
+    id: 1,
+    img: GigImage,
+    profilePicture: ProfilePicture,
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati impedit quibusdam officia veritatis quis voluptate cupiditate recusandae delectus eos at.",
+    price: 2314,
+    star: 4,
+    username: "Musa Suleiman",
+  },
+  {
+    id: 2,
+    img: GigImage,
+    profilePicture: ProfilePicture,
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati impedit quibusdam officia veritatis quis voluptate cupiditate recusandae delectus eos at.",
+    price: 324,
+    star: 3,
+    username: "Habeeb Bai",
+  },
+  {
+    id: 3,
+    img: GigImage,
+    profilePicture: ProfilePicture,
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati impedit quibusdam officia veritatis quis voluptate cupiditate recusandae delectus eos at.",
+    price: 123,
+    star: 5,
+    username: "John Smallings",
+  },
+  {
+    id: 4,
+    img: GigImage,
+    profilePicture: ProfilePicture,
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati impedit quibusdam officia veritatis quis voluptate cupiditate recusandae delectus eos at.",
+    price: 876,
+    star: 5,
+    username: "Ayodele Moreneke",
+  },
+  {
+    id: 5,
+    img: GigImage,
+    profilePicture: ProfilePicture,
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati impedit quibusdam officia veritatis quis voluptate cupiditate recusandae delectus eos at.",
+    price: 454,
+    star: 4,
+    username: "Kachikwu Abel",
+  },
+  {
+    id: 6,
+    img: GigImage,
+    profilePicture: ProfilePicture,
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati impedit quibusdam officia veritatis quis voluptate cupiditate recusandae delectus eos at.",
+    price: 253,
+    star: 5,
+    username: "Musa Suleiman",
+  },
+  {
+    id: 7,
+    img: GigImage,
+    profilePicture: ProfilePicture,
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati impedit quibusdam officia veritatis quis voluptate cupiditate recusandae delectus eos at.",
+    price: 8092,
+    star: 3,
+    username: "Musa Suleiman",
+  },
+  {
+    id: 8,
+    img: GigImage,
+    profilePicture: ProfilePicture,
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati impedit quibusdam officia veritatis quis voluptate cupiditate recusandae delectus eos at.",
+    price: 2314,
+    star: 4,
+    username: "Sylvester ANobi",
   },
 ];
