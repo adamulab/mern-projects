@@ -114,6 +114,7 @@ export default function Navbar() {
               Lifestyle
             </Link>
           </div>
+          <hr />
         </>
       )}
     </div>

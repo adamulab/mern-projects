@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function CategoryCard({ item }) {
   return (
     <Link to={"/gigs?cat=design"}>
-      <div className="card">
+      <div className="categoryCard">
         <img src={item.img} alt="picture" />
         <span className="description">{item.description}</span>
         <span className="title">{item.title}</span>

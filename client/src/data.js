@@ -1,67 +1,77 @@
 import ImageLarge from "./images/office.jpg";
 import ProfilePicture from "./images/user.png";
 import GigImage from "./images/f-ai.avif";
+import WebsiteImage from "./images/f-web-design.jpg";
+import AiImage from "./images/f-ai.avif";
+import BCImage from "./images/f-book-cover.jpg";
+import VOImage from "./images/f-voice-over.jpg";
+import SMImage from "./images/f-scoial-media.jpg";
+import DEImage from "./images/f-data-entry.jpg";
+import SEOImage from "./images/f-seo.jpg";
+import LDImage from "./images/f-logo-design.jpg";
+import CWImage from "./images/f-writing.jpg";
+import VEImage from "./images/f-video-editing.jpg";
 
 export const cards = [
   {
     id: 1,
     title: "Website Design",
     description: "Stunning and user-friendly websites.",
-    img: "https://i.ibb.co/M8SvDDV/f-web-design.jpg",
+    img: WebsiteImage,
   },
   {
     id: 2,
     title: "AI Solutions",
     description: "Cutting-edge artificial intelligence technology.",
-    img: "https://i.ibb.co/JjDww5R/f-ai.jpg",
+    img: AiImage,
   },
   {
     id: 3,
     title: "Book Cover Design",
     description: "Captivating book cover designs.",
-    img: "https://i.ibb.co/Kxgp0sy/f-book-cover.jpg",
+    img: BCImage,
   },
   {
     id: 4,
     title: "Voice Over Services",
     description: "Professional voice overs.",
-    img: "https://i.ibb.co/SK76yBr/f-voice-over.jpg",
+    img: VOImage,
   },
   {
     id: 5,
     title: "Social Media Management",
     description: "Expert social media strategies.",
-    img: "https://i.ibb.co/rQ854j1/f-scoial-media.jpg",
+    img: SMImage,
   },
   {
     id: 6,
     title: "Data Entry",
     description: "Accurate and efficient data entry.",
-    img: "https://i.ibb.co/mSyGtJH/f-data-entry.jpg",
+    img: DEImage,
   },
   {
     id: 7,
     title: "SEO Optimization",
     description: "Boost your search rankings.",
-    img: "https://i.ibb.co/2SGF7Ft/f-seo.jpg",
+    img: SEOImage,
   },
   {
     id: 8,
     title: "Logo Design",
     description: "Unique and memorable logos.",
-    img: "https://i.ibb.co/4JvQV2r/f-logo-design.jpg",
+    img: LDImage,
   },
   {
     id: 9,
     title: "Content Writing",
     description: "Engaging and tailored content.",
-    img: "https://i.ibb.co/TKyR4DK/f-writing.jpg",
+    img: CWImage,
   },
   {
     id: 1,
     title: "Video Editing",
     description: "High-quality video editing.",
-    img: "https://i.ibb.co/FgyrwNL/f-video-editing.jpg",
+    img: VEImage,
   },
 ];
 

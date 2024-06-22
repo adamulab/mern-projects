@@ -11,6 +11,7 @@ import Login from "./pages/login/Login";
 import Messages from "./pages/messages/Messages";
 import Gig from "./pages/gig/Gig";
 import "./app.scss";
+import Message from "./pages/message/Message";
 
 function App() {
   const Layout = () => {
@@ -57,7 +58,7 @@ function App() {
         },
         {
           path: "/messages/:id",
-          element: <Messages />,
+          element: <Message />,
         },
         {
           path: "/register",

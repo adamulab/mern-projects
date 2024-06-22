@@ -1,6 +1,14 @@
 import React from "react";
 import ProfileImage from "../../images/user.png";
-import { FaFlag, FaStar, FaThumbsDown, FaThumbsUp } from "react-icons/fa";
+import {
+  FaCheck,
+  FaClock,
+  FaFlag,
+  FaRecycle,
+  FaStar,
+  FaThumbsDown,
+  FaThumbsUp,
+} from "react-icons/fa";
 import { Slider } from "infinite-react-carousel";
 import "./Gig.scss";
 
@@ -9,8 +17,10 @@ function Gig() {
     <div className="gig">
       <div className="container">
         <div className="left">
-          <span className="breadcrumbs">myFiverr > VIDEO & ANIMATIONS ></span>
-          <h1>Video Editors</h1>
+          <span className="breadcrumbs">
+            myFiverr &#62; VIDEO & ANIMATIONS &#62;
+          </span>
+          <h1>Video Editing</h1>
 
           <div className="user">
             <img src={ProfileImage} alt="profile" />
@@ -129,9 +139,9 @@ function Gig() {
               </p>
               <div className="helpful">
                 <span>Helpful?</span>
-                <FaThumbsUp className="icon" />
+                <FaThumbsUp className="icon leftIcon" />
                 <span>Yes</span>
-                <FaThumbsDown className="icon" />
+                <FaThumbsDown className="icon rightIcon" />
                 <span>No</span>
               </div>
             </div>
@@ -162,9 +172,9 @@ function Gig() {
               </p>
               <div className="helpful">
                 <span>Helpful?</span>
-                <FaThumbsUp className="icon" />
+                <FaThumbsUp className="icon leftIcon" />
                 <span>Yes</span>
-                <FaThumbsDown className="icon" />
+                <FaThumbsDown className="icon rightIcon" />
                 <span>No</span>
               </div>
             </div>
@@ -195,15 +205,54 @@ function Gig() {
               </p>
               <div className="helpful">
                 <span>Helpful?</span>
-                <FaThumbsUp className="icon" />
+                <FaThumbsUp className="icon leftIcon" />
                 <span>Yes</span>
-                <FaThumbsDown className="icon" />
+                <FaThumbsDown className="icon rightIcon" />
                 <span>No</span>
               </div>
             </div>
           </div>
         </div>
-        <div className="right"></div>
+        <div className="right">
+          <div className="price">
+            <h3>Video Editing</h3>
+            <h2>$ 63.99</h2>
+          </div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum
+            pariatur non fuga placeat cum quae nesciunt quam quisquam molestias
+            deserunt?
+          </p>
+          <div className="details">
+            <div className="item">
+              <FaClock className="icon" />
+              <span>2 Day Delivery</span>
+            </div>
+            <div className="item">
+              <FaRecycle className="icon" />
+              <span>5 Revisions</span>
+            </div>
+          </div>
+          <div className="features">
+            <div className="item">
+              <FaCheck className="icon greenCheck" />
+              <span>Clear Quality</span>
+            </div>
+            <div className="item">
+              <FaCheck className="icon greenCheck" />
+              <span>Animated Play</span>
+            </div>
+            <div className="item">
+              <FaCheck className="icon greenCheck" />
+              <span>Clear Sourd Qaulity</span>
+            </div>
+            <div className="item">
+              <FaCheck className="icon greenCheck" />
+              <span>Prompt Delivery</span>
+            </div>
+          </div>
+          <button>Continue</button>
+        </div>
       </div>
     </div>
   );

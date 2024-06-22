@@ -16,7 +16,9 @@ function Gigs() {
   return (
     <div className="gigs">
       <div className="container">
-        <span className="breadcrumbs">myFiverr > VIDEO & ANIMATIONS ></span>
+        <span className="breadcrumbs">
+          myFiverr &#62; VIDEO & ANIMATIONS &#62;
+        </span>
         <h1>Video Editors</h1>
         <p>Push the limits of video production with our expert freelancers</p>
         <div className="menu">

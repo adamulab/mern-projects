@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function ProjectsCard({ item }) {
   return (
     <Link to={"/gigs?cat=design"} className="link">
-      <div className="card">
+      <div className="projectCard">
         <img src={item.img} alt="picture" />
         <div className="info">
           <img src={item.profilePicture} alt="profilePicture" />
